@@ -12,7 +12,7 @@ export default function Home() {
 
   const exampleReq = `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=3&calories=591-722&health=alcohol-free`;
 
-  const [recipes, setRecipes] = useState([]);
+  cons [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("chicken");
 
