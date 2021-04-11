@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu bar css */
+.navbar-wrapper {
+ 
+  width : 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #17B169;
+  height: auto;
+  
+}
+
+
+.navbar-menu ul {
+  margin-left: 0;
+  list-style: none;
+  text-align: center;
+}
+.navbar-menu ul li {
+  display: inline-block;
+}
+.navbar-menu ul li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+.navbar-menu ul li a:hover {
+  background: #018749;
+  color: #FFF;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .navbar-menu ul li{
+    float: none;
+    width: 100%;
+  }
+} 
